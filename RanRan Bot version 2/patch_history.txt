@@ -1,0 +1,28 @@
+# @author: Martin Tejada
+# @version: 2.0
+# @since 7/31/2025
+
+# version 2.0 <- current work in progress
+# Removed "Bye" button
+# New welcome messages [DONE]
+# Added suggested messages in chatbox [CLOSE]
+# Improved UI and displays chat history [DONE]
+# Added speach-to-text function [DONE]
+# Play audio on program open and close, and text message [DONE]
+# Ranran bot now uses context from previous messages, memory is wiped after 100 messages [DONE]
+
+# version 2.3.0
+# Added a toolbar for new functions like: data analysis tools, document processing
+
+# version 2.4.0
+# Added new animations for RanRan Bot
+# Replaced old idle animation with an improved idle animation
+
+# version 2.5.0 (skipable)
+# Added image generation
+
+# version 3.0.0
+# Added text-to-speach function
+
+# version 4.0.0
+# Deployed RanRan Bot
