@@ -1,22 +1,32 @@
-Ran Ran ChatBot
+# Ran Ran ChatBot
 
-Author: Martin Tejada
-Version: 1.0
-Since: 3/12/2025
+**Author:** Martin Tejada  
+**Version:** 2.0  
+**Since:** 3/12/2025  
 
-Description
+---
 
-The Ran Ran ChatBot is a fun AI chatbot with a graphical user interface (GUI) that allows users to chat with Ran Ran, a playful AI character. The bot responds to user input with AI-generated replies powered by OpenAI's GPT model. To make the interaction more engaging, the bot displays a custom animated gif of Ran Ran during the conversation.
+## Description
 
-The project uses:
+Ran Ran ChatBot is an AI chatbot with a graphical interface. Version 2.0 introduces several new features and improvements to enhance usability and interaction.
 
-    OpenAI API for AI responses.
-    Tkinter for the GUI.
-    Pillow to handle the gif animation of Ran Ran.
+---
 
-Features
+## What's New in Version 2.0
 
-    AI-powered chatbot: Powered by the OpenAI API to generate responses based on user input.
-    GIF Animation: Displays a looping animation of Ran Ran while the bot is idle.
-    GUI: Built with Tkinter for an easy-to-use interface.
-    Typing effect: Adds a typing effect for Ran Ran's responses to mimic realistic conversation.
+- Removed "Bye" button
+- Greeting messages on program launch
+- Added initial suggested messages in the interface
+- Full chat history is now shown
+- Added microphone (MIC) button for speech-to-text
+- Audio plays on program open, close, and when sending messages
+- Ran Ran now uses context from previous messages
+- Memory is automatically cleared after 100 messages
+
+  
+## Technologies Used
+
+- OpenAI API – for AI responses  
+- PyQt6 – for the graphical interface  
+- gTTS and pygame – for text-to-speech and sound  
+- SpeechRecognition – for microphone input  
