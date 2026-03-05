@@ -14,6 +14,7 @@ Ran Ran ChatBot is an AI chatbot with a graphical interface. Version 2.0 introdu
 
 ## What's New in Version 2.0
 
+- Added basic multi turn memory
 - Removed "Bye" button
 - Greeting messages on program launch
 - Added initial suggested messages in the interface
